@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import GlobalStyle from '../styles/global';
+
 function Home() {
     return (
-        <>
+        <div id="root">
             <h1>Hello,world!</h1>
             <Contador />
-        </>
+            <GlobalStyle/>
+        </div>
     )
 }
 

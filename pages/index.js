@@ -10,7 +10,6 @@ function Home() {
         </div>
     )
 }
-
 function Contador() {
     const [contador, setContador] = useState(1);
     function adicionarContador() {
@@ -18,7 +17,7 @@ function Contador() {
     }
     return (
         <div>
-            <div>{contador}</div>
+            <p className="contador">{contador}</p>
             <button onClick={adicionarContador}>Adicionar</button>
         </div>
     )

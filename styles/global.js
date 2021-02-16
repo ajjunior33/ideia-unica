@@ -18,6 +18,8 @@ body, input, button{
 }
 #root{
     max-width:960px;
+    height:100vh;
+    background-color:#F0F0F5;
     margin:0 auto;
     padding: 40px 20px;
 }
@@ -28,9 +30,12 @@ h1{
     text-align:center;
     margin:15px 0;
 }
+.contador{
+    font-size:1.5em;
+}
 button{
     border:0;
-    background-color:#2ecc71;
+    background-color:#e67e22;
     border-radius:15px;
     padding:8px 25px;
     font-size:1em;
@@ -39,7 +44,11 @@ button{
     margin:15px 0;
 
     :hover{
-        background-color:#27ae60;
+        background-color:#d35400;
+    }
+
+    @media (max-width: 640px) {
+        width:100%;
     }
 }
 
